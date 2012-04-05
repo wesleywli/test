@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BA88BA71529766D00929D96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA88BA61529766D00929D96 /* UIKit.framework */; };
+		2BA88BA91529766D00929D96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA88BA81529766D00929D96 /* Foundation.framework */; };
+		2BA88BAB1529766D00929D96 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA88BAA1529766D00929D96 /* CoreGraphics.framework */; };
+		2BA88BAD1529766D00929D96 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA88BAC1529766D00929D96 /* CoreData.framework */; };
+		2BA88BB31529766D00929D96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BA88BB11529766D00929D96 /* InfoPlist.strings */; };
+		2BA88BB51529766D00929D96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA88BB41529766D00929D96 /* main.m */; };
+		2BA88BB91529766D00929D96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA88BB81529766D00929D96 /* AppDelegate.m */; };
+		2BA88BBC1529766D00929D96 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA88BBA1529766D00929D96 /* MainStoryboard.storyboard */; };
+		2BA88BBF1529766D00929D96 /* mast.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BA88BBD1529766D00929D96 /* mast.xcdatamodeld */; };
+		2BA88BC21529766D00929D96 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA88BC11529766D00929D96 /* MasterViewController.m */; };
+		2BA88BC51529766D00929D96 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA88BC41529766D00929D96 /* DetailViewController.m */; };
+		2BB1E4D41529A42F005D01F6 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB1E4D21529A42F005D01F6 /* AddressBook.framework */; };
+		2BB1E4D51529A42F005D01F6 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB1E4D31529A42F005D01F6 /* AddressBookUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BA88BA21529766D00929D96 /* mast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA88BA61529766D00929D96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2BA88BA81529766D00929D96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2BA88BAA1529766D00929D96 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2BA88BAC1529766D00929D96 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2BA88BB01529766D00929D96 /* mast-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mast-Info.plist"; sourceTree = "<group>"; };
+		2BA88BB21529766D00929D96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BA88BB41529766D00929D96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BA88BB61529766D00929D96 /* mast-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mast-Prefix.pch"; sourceTree = "<group>"; };
+		2BA88BB71529766D00929D96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BA88BB81529766D00929D96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BA88BBB1529766D00929D96 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2BA88BBE1529766D00929D96 /* mast.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mast.xcdatamodel; sourceTree = "<group>"; };
+		2BA88BC01529766D00929D96 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		2BA88BC11529766D00929D96 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		2BA88BC31529766D00929D96 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		2BA88BC41529766D00929D96 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		2BB1E4D21529A42F005D01F6 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		2BB1E4D31529A42F005D01F6 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BA88B9F1529766D00929D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB1E4D41529A42F005D01F6 /* AddressBook.framework in Frameworks */,
+				2BB1E4D51529A42F005D01F6 /* AddressBookUI.framework in Frameworks */,
+				2BA88BA71529766D00929D96 /* UIKit.framework in Frameworks */,
+				2BA88BA91529766D00929D96 /* Foundation.framework in Frameworks */,
+				2BA88BAB1529766D00929D96 /* CoreGraphics.framework in Frameworks */,
+				2BA88BAD1529766D00929D96 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BA88B971529766C00929D96 = {
+			isa = PBXGroup;
+			children = (
+				2BB1E4D21529A42F005D01F6 /* AddressBook.framework */,
+				2BB1E4D31529A42F005D01F6 /* AddressBookUI.framework */,
+				2BA88BAE1529766D00929D96 /* mast */,
+				2BA88BA51529766D00929D96 /* Frameworks */,
+				2BA88BA31529766D00929D96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BA88BA31529766D00929D96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BA88BA21529766D00929D96 /* mast.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BA88BA51529766D00929D96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BA88BA61529766D00929D96 /* UIKit.framework */,
+				2BA88BA81529766D00929D96 /* Foundation.framework */,
+				2BA88BAA1529766D00929D96 /* CoreGraphics.framework */,
+				2BA88BAC1529766D00929D96 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BA88BAE1529766D00929D96 /* mast */ = {
+			isa = PBXGroup;
+			children = (
+				2BA88BB71529766D00929D96 /* AppDelegate.h */,
+				2BA88BB81529766D00929D96 /* AppDelegate.m */,
+				2BA88BBA1529766D00929D96 /* MainStoryboard.storyboard */,
+				2BA88BC01529766D00929D96 /* MasterViewController.h */,
+				2BA88BC11529766D00929D96 /* MasterViewController.m */,
+				2BA88BC31529766D00929D96 /* DetailViewController.h */,
+				2BA88BC41529766D00929D96 /* DetailViewController.m */,
+				2BA88BBD1529766D00929D96 /* mast.xcdatamodeld */,
+				2BA88BAF1529766D00929D96 /* Supporting Files */,
+			);
+			path = mast;
+			sourceTree = "<group>";
+		};
+		2BA88BAF1529766D00929D96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BA88BB01529766D00929D96 /* mast-Info.plist */,
+				2BA88BB11529766D00929D96 /* InfoPlist.strings */,
+				2BA88BB41529766D00929D96 /* main.m */,
+				2BA88BB61529766D00929D96 /* mast-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BA88BA11529766D00929D96 /* mast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA88BC81529766E00929D96 /* Build configuration list for PBXNativeTarget "mast" */;
+			buildPhases = (
+				2BA88B9E1529766D00929D96 /* Sources */,
+				2BA88B9F1529766D00929D96 /* Frameworks */,
+				2BA88BA01529766D00929D96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mast;
+			productName = mast;
+			productReference = 2BA88BA21529766D00929D96 /* mast.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BA88B991529766C00929D96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2BA88B9C1529766C00929D96 /* Build configuration list for PBXProject "mast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2BA88B971529766C00929D96;
+			productRefGroup = 2BA88BA31529766D00929D96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BA88BA11529766D00929D96 /* mast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BA88BA01529766D00929D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA88BB31529766D00929D96 /* InfoPlist.strings in Resources */,
+				2BA88BBC1529766D00929D96 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BA88B9E1529766D00929D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA88BB51529766D00929D96 /* main.m in Sources */,
+				2BA88BB91529766D00929D96 /* AppDelegate.m in Sources */,
+				2BA88BBF1529766D00929D96 /* mast.xcdatamodeld in Sources */,
+				2BA88BC21529766D00929D96 /* MasterViewController.m in Sources */,
+				2BA88BC51529766D00929D96 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2BA88BB11529766D00929D96 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA88BB21529766D00929D96 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2BA88BBA1529766D00929D96 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA88BBB1529766D00929D96 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BA88BC61529766D00929D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BA88BC71529766E00929D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BA88BC91529766E00929D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mast/mast-Prefix.pch";
+				INFOPLIST_FILE = "mast/mast-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2BA88BCA1529766E00929D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mast/mast-Prefix.pch";
+				INFOPLIST_FILE = "mast/mast-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BA88B9C1529766C00929D96 /* Build configuration list for PBXProject "mast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA88BC61529766D00929D96 /* Debug */,
+				2BA88BC71529766E00929D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BA88BC81529766E00929D96 /* Build configuration list for PBXNativeTarget "mast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA88BC91529766E00929D96 /* Debug */,
+				2BA88BCA1529766E00929D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2BA88BBD1529766D00929D96 /* mast.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2BA88BBE1529766D00929D96 /* mast.xcdatamodel */,
+			);
+			currentVersion = 2BA88BBE1529766D00929D96 /* mast.xcdatamodel */;
+			path = mast.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2BA88B991529766C00929D96 /* Project object */;
+}
